@@ -1,45 +1,45 @@
-package com.mytaskapp.tasks;
+// package com.mytaskapp.tasks;
 
-import jakarta.persistence.Entity;
-import jakarta.persistence.GeneratedValue;
-import jakarta.persistence.GenerationType;
-import jakarta.persistence.Id;
+// import jakarta.persistence.Entity;
+// import jakarta.persistence.GeneratedValue;
+// import jakarta.persistence.GenerationType;
+// import jakarta.persistence.Id;
 
-@Entity
-public class User {
-    @Id
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private Long id;
+// @Entity
+// public class User {
+// @Id
+// @GeneratedValue(strategy = GenerationType.IDENTITY)
+// private Long id;
 
-    private String username;
-    private String password;
+// private String username;
+// private String password;
 
-    // Constructors, getters, setters, and other annotations as needed
+// // Constructors, getters, setters, and other annotations as needed
 
-    // Example Constructor
-    public User(String username, String password) {
-        this.username = username;
-        this.password = password;
-    }
+// // Example Constructor
+// public User(String username, String password) {
+// this.username = username;
+// this.password = password;
+// }
 
-    // Example Getter and Setter methods
-    public Long getId() {
-        return id;
-    }
+// // Example Getter and Setter methods
+// public Long getId() {
+// return id;
+// }
 
-    public String getUsername() {
-        return username;
-    }
+// public String getUsername() {
+// return username;
+// }
 
-    public void setUsername(String username) {
-        this.username = username;
-    }
+// public void setUsername(String username) {
+// this.username = username;
+// }
 
-    public String getPassword() {
-        return password;
-    }
+// public String getPassword() {
+// return password;
+// }
 
-    public void setPassword(String password) {
-        this.password = password;
-    }
-}
+// public void setPassword(String password) {
+// this.password = password;
+// }
+// }
