@@ -1,18 +1,17 @@
 package com.mytaskapp.events;
 
-import org.springframework.stereotype.Repository;
-import java.util.List;
+import org.springframework.data.jpa.repository.JpaRepository;
+// import java.util.List;
 
-@Repository
-public class OrganizerRepository {
+public interface OrganizerRepository extends JpaRepository<Organizer, Integer> {
 
-    private final List<Organizer> organizers = List.of(
-            new Organizer(101, "Organizer kommun", "Kommun of Övik"),
-            new Organizer(102, "Organizer City", "Kommun of Stockholm"));
+    // private final List<Organizer> organizers = List.of(
+    // new Organizer(101, "Organizer kommun", "Kommun of Övik"),
+    // new Organizer(102, "Organizer City", "Kommun of Stockholm"));
 
-    public List<Organizer> findAll() {
-        return organizers;
-    }
+    // public List<Organizer> findAll() {
+    // return organizers;
+    // }
 }
 //// http://localhost:8080/organizers
 
